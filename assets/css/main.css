@@ -1,7 +1,7 @@
  
 html,
 body {
-    background-color: #2c0846;
+    background-color: #000;
     color: white;
     font-family: 'Quicksand', serif;
 }
@@ -12,14 +12,22 @@ a {
 }
 
 a:hover {
-    color: #9b60ca;
+    color: #db0028;
     text-decoration: underline;
 }
 
 ::selection {}
 
 ::-moz-selection {
-    background: #9b60ca;
+    background: #ff593f;
+}
+
+.main-title
+{
+    font-size: 42px;
+    background: -webkit-linear-gradient(#db0028, #ff8041);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .team {
