@@ -1,76 +1,81 @@
+ html,
+ body {
+     background-color: #000;
+     color: white;
+     font-family: 'Quicksand', serif;
+ }
  
-html,
-body {
-    background-color: #000;
-    color: white;
-    font-family: 'Quicksand', serif;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #db0028;
-    text-decoration: underline;
-}
-
-::selection {}
-
-::-moz-selection {
-    background: #ff593f;
-}
-
-.main-title
-{
-    font-size: 42px;
-    background: -webkit-linear-gradient(#db0028, #ff8041);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.team {
-    display: inline-block;
-    padding: 5px 10px 5px 0px;
-    vertical-align: top;
-}
-
-.team a {
-    float: left;
-    margin: 0 10px;
-}
-
-.headshot {
-    height: 100px;
-    width: 100px;
-    border-radius: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logo {
-    height: 300px;
-    border-radius: 20px;
-    margin-top: 10px;
-}
-
-@media only screen and (max-width : 768px) {
-    .logo {
-        height: 200px;
-        border-radius: 20px;
-        margin-top: 10px;
-    }
-
-    .headshot {
-        height: 80px;
-        width: 80px;
-        margin: 5px;
-        border-radius: 100px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-}
+ a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ a:hover {
+     color: #db0028;
+     text-decoration: underline;
+ }
+ 
+ ::selection {}
+ 
+ ::-moz-selection {
+     background: #ff593f;
+ }
+ 
+ .main-title {
+     font-size: 42px;
+     margin: 15px 10px 15px 10px;
+     background: -webkit-linear-gradient(#db0028, #ff8041);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ 
+ .main-title-2 {
+     font-size: 36px;
+     margin: 15px 10px 15px 10px;
+     background: -webkit-linear-gradient(#db0028, #ff8041);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ 
+ .team {
+     display: inline-block;
+     padding: 5px 10px 5px 0px;
+     vertical-align: top;
+ }
+ 
+ .team a {
+     float: left;
+     margin: 0 10px;
+ }
+ 
+ .headshot {
+     height: 100px;
+     width: 100px;
+     border-radius: 100px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .logo {
+     height: 300px;
+     border-radius: 20px;
+     margin-top: 10px;
+ }
+ 
+ @media only screen and (max-width: 768px) {
+     .logo {
+         height: 200px;
+         border-radius: 20px;
+         margin-top: 10px;
+     }
+     .headshot {
+         height: 80px;
+         width: 80px;
+         margin: 5px;
+         border-radius: 100px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+     }
+ }
