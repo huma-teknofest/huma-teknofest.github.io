@@ -21,6 +21,10 @@
      background: #ff593f;
  }
  
+ .title {
+     font-size: 28px;
+ }
+ 
  .main-title {
      font-size: 42px;
      margin: 15px 10px 15px 10px;
